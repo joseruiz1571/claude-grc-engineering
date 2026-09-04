@@ -9,7 +9,7 @@ Stub-depth framework plugin scaffolded from the SCF crosswalk. Install and use i
 
 ## Status: Stub
 
-This plugin is at **Stub depth** — it routes to `/grc-engineer:gap-assessment` via the SCF crosswalk (139 SCF controls → 250 NIST AI 600-1 controls) without any framework-specific workflow commands yet.
+This plugin is at **Stub depth** — it routes to `/grc-engineer:gap-assessment` via the SCF crosswalk (139 SCF controls → 250 SCF-mapped profile / suggested-action items) without any framework-specific workflow commands yet.
 
 AI 600-1 is NIST's cross-sectoral profile of AI RMF 1.0 for generative AI. It identifies generative-AI risks and maps suggested actions to AI RMF subcategories; it is an application of AI RMF, and it defines no standalone control catalog. Concrete controls come from the SCF crosswalk.
 
@@ -29,7 +29,7 @@ Full depth adds framework-native workflow commands tied to the audit ritual (e.g
 | Region | Global |
 | Country | US |
 | SCF controls mapped | 139 |
-| Framework controls mapped | 250 |
+| SCF-mapped profile items | 250 |
 | Depth | Stub |
 
 ## References

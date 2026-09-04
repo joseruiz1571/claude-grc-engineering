@@ -6,7 +6,7 @@ allowed-tools: Read, Glob, Grep
 
 # NIST AI 600-1 (Generative AI Profile) Expert
 
-Stub-depth expertise for **NIST AI 600-1 (Generative AI Profile)**. This plugin is scaffolded from the SCF crosswalk (139 SCF controls map to 250 framework controls) and defers to `/grc-engineer:gap-assessment` for the actual compliance check.
+Stub-depth expertise for **NIST AI 600-1 (Generative AI Profile)**. This plugin is scaffolded from the SCF crosswalk (139 SCF controls map to 250 SCF-mapped profile / suggested-action items) and defers to `/grc-engineer:gap-assessment` for the actual compliance check.
 
 ## Framework identity
 
@@ -16,7 +16,7 @@ Stub-depth expertise for **NIST AI 600-1 (Generative AI Profile)**. This plugin 
 - **Issuing body**: NIST (U.S. National Institute of Standards and Technology); voluntary framework, not enforced
 - **Canonical source**: NIST AI 600-1, "Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile", July 2024
 
-AI 600-1 is a **cross-sectoral profile of AI RMF 1.0**, not a standalone framework, not a control catalog, and not a certification. It identifies risks that are novel to or exacerbated by generative AI and maps suggested actions to AI RMF subcategories; obligations resolve through the parent framework's GOVERN/MAP/MEASURE/MANAGE structure. Concrete controls come from the SCF crosswalk: 139 SCF controls map to 250 framework controls, referenced by ID, never by paraphrased prose.
+AI 600-1 is a **cross-sectoral profile of AI RMF 1.0**, not a standalone framework, not a control catalog, and not a certification. It identifies risks that are novel to or exacerbated by generative AI and maps suggested actions to AI RMF subcategories; obligations resolve through the parent framework's GOVERN/MAP/MEASURE/MANAGE structure. Concrete controls come from the SCF crosswalk: 139 SCF controls map to 250 non-normative profile / suggested-action items, referenced by ID, never by paraphrased prose.
 
 Common failure modes when working with this framework: treating the profile as a framework separate from AI RMF, treating its suggested actions as mandatory controls, and mapping to action prose instead of IDs.
 
